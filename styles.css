@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    background-color: #444;
+    margin: 20px;
+    flex: 1 0 250px;
+    max-width: 400px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.textColumn {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.nameText {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.statusText,
+.typeText {
+    margin-bottom: 10px;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #9a9a9a;
+    color: #fff;
+    margin-right: 10px;
+}
+
+button:hover {
+    transition: 0.2s background-color;
+    background-color: #383838;
+    border: 1px #ffffff solid;
+    padding: 10px 22px;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
